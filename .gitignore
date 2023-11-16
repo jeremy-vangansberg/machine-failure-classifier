@@ -1,7 +1,7 @@
 # Datasets files
-model/data/*
-*.xlsx
-*.csv
+# model/data/*
+# .xlsx
+# *.csv
 
 # weights and saved model (ignoring large volumes files during the experiment)
 # 

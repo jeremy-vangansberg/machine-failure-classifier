@@ -1,0 +1,522 @@
+,labels
+0,convoyeur principal 
+2,poste bouchonnage
+4,poste bouchonnage
+5,poste bouchonnage
+6,tremie 
+7,cellules 
+8,ipc
+9,poste bouchonnage
+10,poste bouchonnage
+11,hmi
+12,bol bouchon
+13,table tournante
+14,communication
+15,poste bouchonnage
+16,vis sans fin
+17,cellules 
+18,hmi
+19,vis sans fin
+20,poste bouchonnage
+21,hmi
+22,vis sans fin
+24,vis sans fin
+25,table tournante
+26,poste remplissage
+27,cellules 
+28,hmi
+30,ipc
+32,cellules 
+33,poste bouchonnage
+34,servo commande
+35,table tournante
+37,convoyeur principal 
+38,cellules 
+39,hmi
+40,cellules 
+41,cellules 
+42,hmi
+43,autom
+44,poste remplissage
+45,poste remplissage
+46,ipc
+47,poste bouchonnage
+48,table tournante
+49,communication
+50,ipc
+52,hmi
+53,cellules 
+54,ipc
+55,ipc
+57,vis sans fin
+59,vis sans fin
+60,hmi
+61,hmi
+62,poste bouchonnage
+63,convoyeur principal 
+64,hmi
+65,ipc
+67,vis sans fin
+68,hmi
+69,hmi
+70,hmi
+72,poste remplissage
+73,hmi
+74,vis sans fin
+75,hmi
+76,vis sans fin
+77,poste bouchonnage
+78,hmi
+79,bol bouchon
+80,hmi
+81,communication
+82,tremie 
+83,poste bouchonnage
+84,hmi
+85,table tournante
+86,convoyeur principal 
+87,hmi
+89,roue sortie 
+91,hmi
+92,convoyeur principal 
+93,poste remplissage
+94,ipc
+95,hmi
+96,roue sortie 
+97,convoyeur principal 
+99,table tournante
+100,cellules 
+101,hmi
+102,hmi
+103,servo commande
+104,hmi
+108,table tournante
+109,table tournante
+110,convoyeur principal 
+111,ipc
+112,ipc
+113,hmi
+114,poste remplissage
+115,poste remplissage
+116,autom
+118,table tournante
+119,hmi
+120,ipc
+121,ipc
+122,ipc
+123,hmi
+124,ipc
+125,ipc
+126,ipc
+127,hmi
+128,vis sans fin
+129,ipc
+130,hmi
+131,cellules 
+132,cellules 
+134,hmi
+135,cellules 
+136,convoyeur principal 
+137,tremie 
+138,convoyeur principal 
+139,cellules 
+140,hmi
+141,cellules 
+142,ipc
+143,communication
+144,poste bouchonnage
+145,table tournante
+146,vis sans fin
+147,poste bouchonnage
+148,hmi
+149,ipc
+150,bol bouchon
+151,hmi
+152,convoyeur principal 
+153,vis sans fin
+155,hmi
+156,vis sans fin
+157,hmi
+158,ipc
+159,hmi
+160,communication
+162,ipc
+163,autom
+164,hmi
+165,convoyeur principal 
+166,convoyeur principal 
+168,cellules 
+169,cellules 
+170,tremie 
+171,poste remplissage
+172,autom
+173,ipc
+174,convoyeur principal 
+175,poste remplissage
+176,ipc
+177,bol bouchon
+178,roue sortie 
+179,bol bouchon
+180,poste bouchonnage
+181,poste bouchonnage
+182,hmi
+183,vis sans fin
+184,vis sans fin
+185,hmi
+186,hmi
+187,ipc
+188,ipc
+189,ipc
+190,hmi
+191,communication
+192,ipc
+193,ipc
+195,hmi
+196,ipc
+197,hmi
+198,hmi
+199,poste bouchonnage
+201,vis sans fin
+202,poste remplissage
+203,poste remplissage
+204,poste bouchonnage
+207,poste bouchonnage
+208,poste bouchonnage
+209,poste bouchonnage
+210,poste bouchonnage
+211,roue sortie 
+212,autom
+213,hmi
+214,communication
+215,vis sans fin
+216,ipc
+217,roue sortie 
+218,communication
+219,convoyeur principal 
+220,poste remplissage
+221,servo commande
+222,poste bouchonnage
+223,poste remplissage
+224,tremie 
+225,poste bouchonnage
+226,poste bouchonnage
+227,hmi
+228,hmi
+229,bol bouchon
+230,ipc
+231,ipc
+232,hmi
+234,ipc
+236,poste bouchonnage
+238,roue sortie 
+239,ipc
+240,hmi
+241,hmi
+242,cellules 
+244,hmi
+245,vis sans fin
+246,communication
+247,ipc
+248,bol bouchon
+249,poste remplissage
+250,convoyeur principal 
+251,ipc
+252,table tournante
+253,ipc
+254,autom
+255,cellules 
+256,cellules 
+257,communication
+258,servo commande
+259,convoyeur principal 
+260,poste remplissage
+261,poste remplissage
+262,hmi
+264,bol bouchon
+265,hmi
+266,ipc
+267,communication
+268,poste remplissage
+269,poste remplissage
+270,servo commande
+271,hmi
+272,ipc
+273,autom
+274,poste bouchonnage
+275,poste remplissage
+276,poste remplissage
+277,autom
+279,poste remplissage
+280,ipc
+281,ipc
+282,cellules 
+283,autom
+284,autom
+285,autom
+286,autom
+288,hmi
+289,servo commande
+290,servo commande
+291,autom
+292,servo commande
+293,hmi
+294,poste remplissage
+295,ipc
+296,poste bouchonnage
+298,ipc
+300,cellules 
+301,roue sortie 
+302,ipc
+303,ipc
+304,hmi
+305,cellules 
+306,convoyeur principal 
+307,roue sortie 
+308,cellules 
+309,roue sortie 
+310,cellules 
+311,bol bouchon
+312,convoyeur principal 
+313,convoyeur principal 
+314,roue sortie 
+315,roue sortie 
+316,poste bouchonnage
+317,cellules 
+318,cellules 
+320,ipc
+321,hmi
+322,cellules 
+323,cellules 
+324,ipc
+325,poste bouchonnage
+326,cellules 
+327,poste bouchonnage
+328,ipc
+330,ipc
+331,roue sortie 
+332,poste bouchonnage
+333,roue sortie 
+334,poste bouchonnage
+335,hmi
+336,poste bouchonnage
+337,ipc
+338,communication
+339,ipc
+341,ipc
+342,ipc
+343,hmi
+344,roue sortie 
+345,ipc
+346,poste bouchonnage
+347,communication
+348,poste remplissage
+351,cellules 
+352,hmi
+353,hmi
+354,tremie 
+355,convoyeur principal 
+356,ipc
+357,ipc
+358,cellules 
+359,table tournante
+360,cellules 
+362,ipc
+363,cellules 
+365,bol bouchon
+366,ipc
+368,ipc
+369,bol bouchon
+370,ipc
+371,bol bouchon
+372,poste bouchonnage
+373,poste bouchonnage
+374,hmi
+375,ipc
+376,table tournante
+377,convoyeur principal 
+378,table tournante
+379,poste bouchonnage
+380,cellules 
+381,ipc
+382,bol bouchon
+383,cellules 
+385,cellules 
+387,cellules 
+388,hmi
+390,poste bouchonnage
+391,hmi
+393,cellules 
+394,table tournante
+395,cellules 
+396,hmi
+397,cellules 
+398,cellules 
+399,bol bouchon
+400,hmi
+402,hmi
+403,cellules 
+404,cellules 
+405,ipc
+406,cellules 
+407,ipc
+408,cellules 
+409,poste bouchonnage
+410,roue sortie 
+411,poste bouchonnage
+412,poste bouchonnage
+413,poste bouchonnage
+414,poste remplissage
+416,poste bouchonnage
+417,ipc
+418,bol bouchon
+420,ipc
+423,cellules 
+424,poste bouchonnage
+427,cellules 
+428,cellules 
+431,hmi
+432,poste bouchonnage
+433,poste bouchonnage
+434,convoyeur principal 
+435,hmi
+437,vis sans fin
+438,poste remplissage
+439,bol bouchon
+440,ipc
+441,vis sans fin
+442,bol bouchon
+443,ipc
+444,convoyeur principal 
+445,ipc
+446,roue sortie 
+447,convoyeur principal 
+448,ipc
+449,servo commande
+450,poste bouchonnage
+451,poste bouchonnage
+452,hmi
+453,hmi
+454,roue sortie 
+455,bol bouchon
+456,cellules 
+457,communication
+458,hmi
+459,hmi
+460,ipc
+461,table tournante
+462,poste bouchonnage
+463,hmi
+465,ipc
+466,ipc
+467,poste bouchonnage
+468,hmi
+469,poste bouchonnage
+470,poste bouchonnage
+471,ipc
+472,hmi
+473,poste bouchonnage
+475,poste bouchonnage
+476,hmi
+477,communication
+478,poste bouchonnage
+479,convoyeur principal 
+480,cellules 
+481,poste bouchonnage
+482,cellules 
+483,tremie 
+484,hmi
+485,hmi
+486,cellules 
+487,hmi
+488,poste remplissage
+489,ipc
+490,vis sans fin
+491,roue sortie 
+493,hmi
+495,vis sans fin
+496,vis sans fin
+497,ipc
+498,bol bouchon
+501,bol bouchon
+502,poste bouchonnage
+503,poste bouchonnage
+504,vis sans fin
+506,cellules 
+509,servo commande
+510,ipc
+511,ipc
+512,ipc
+513,ipc
+514,hmi
+515,ipc
+516,communication
+517,cellules 
+518,tremie 
+519,tremie 
+520,communication
+521,bol bouchon
+522,poste bouchonnage
+523,roue sortie 
+524,cellules 
+525,convoyeur principal 
+526,poste bouchonnage
+527,ipc
+528,poste bouchonnage
+529,bol bouchon
+530,ipc
+531,poste remplissage
+532,ipc
+533,tremie 
+534,ipc
+535,roue sortie 
+536,hmi
+537,convoyeur principal 
+538,poste remplissage
+539,cellules 
+540,ipc
+542,cellules 
+543,ipc
+544,ipc
+546,cellules 
+547,ipc
+548,hmi
+549,tremie 
+550,poste bouchonnage
+551,bol bouchon
+552,communication
+553,tremie 
+554,ipc
+556,convoyeur principal 
+557,poste bouchonnage
+559,roue sortie 
+560,ipc
+562,ipc
+565,ipc
+566,bol bouchon
+567,ipc
+569,ipc
+570,ipc
+571,ipc
+573,ipc
+574,poste bouchonnage
+575,ipc
+576,ipc
+577,convoyeur principal 
+578,convoyeur principal 
+579,bol bouchon
+580,cellules 
+581,ipc
+582,cellules 
+583,hmi
+584,ipc
+585,servo commande
+586,roue sortie 
+587,cellules 
+588,ipc
+589,table tournante
+591,hmi
+592,hmi
+593,hmi
+594,hmi
+596,poste bouchonnage
+597,poste bouchonnage

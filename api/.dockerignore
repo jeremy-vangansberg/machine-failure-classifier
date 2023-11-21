@@ -6,7 +6,7 @@
 __pycache__
 # weights and saved model (ignoring large volumes files during the experiment)
 # 
-model/saved_model/*
+# model/saved_model/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,venv,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,venv,python

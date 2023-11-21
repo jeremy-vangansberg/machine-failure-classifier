@@ -14,8 +14,9 @@ class PredictionOut(BaseModel):
 @app.post("/predict", response_model=PredictionOut)
 def predict(payload:TextIn):
     print(payload.description)
-    category_pred = predict_pipeline(payload.description)
-    return {'category': category_pred}
+    preds, probas = predict_pipeline(payload.description)
+    return {'category': preds,
+            'probability' : probas}
 
 # if __name__ == '__main__':
 #     uvicorn.run(app, host="0.0.0.0", port=80)

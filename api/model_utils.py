@@ -4,25 +4,26 @@ from tensorflow.keras.utils import custom_object_scope
 from transformers import TFCamembertModel, CamembertTokenizer
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
+import pickle
 
-def load(model_path="nlp_14_nb_class_2023-11-21 15_14_07.250352") :
+
+
+def load(model_path="model/saved_model/nlp_14_nb_class_2023-11-21 15_14_07.250352.h5") :
 ## Loading model and tokenizer
     with custom_object_scope({'TFCamembertModel': TFCamembertModel}):
         model = load_model(model_path)
         tokenizer = CamembertTokenizer("model/saved_model/tokenizer_model.model")
     return model, tokenizer
 
-def label_extractor(path="model/labels.csv", col='labels'):
-    df = pd.read_csv(path)
-    return df[col]
 
-def label_encoder():
+
+def label_encoder(path="model/saved_model/labelencoder.pkl"):
     # Création de l'encodeur
-    le = LabelEncoder()
-    y = label_extractor()
+    with open(path, 'rb') as file:
+    # Load the LabelEncoder object from the file
+        label_encoder = pickle.load(file)
     # Entraînement de l'encodeur et transformation des labels
-    le.fit_transform(y)
-    return le
+    return label_encoder
 
 
 def encode_texts(texts, tokenizer, max_seq_length):

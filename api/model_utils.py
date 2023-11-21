@@ -5,10 +5,10 @@ from transformers import TFCamembertModel, CamembertTokenizer
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
-def load() :
+def load(model_path="nlp_14_nb_class_2023-11-21 15_14_07.250352") :
 ## Loading model and tokenizer
     with custom_object_scope({'TFCamembertModel': TFCamembertModel}):
-        model = load_model('model/saved_model/test.h5')
+        model = load_model(model_path)
         tokenizer = CamembertTokenizer("model/saved_model/tokenizer_model.model")
     return model, tokenizer
 

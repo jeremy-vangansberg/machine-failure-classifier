@@ -28,20 +28,20 @@ def label_encoder(path="model/saved_model/labelencoder.pkl"):
 
 def encode_texts(texts, tokenizer, max_seq_length):
     input_ids = []
-    for text in texts:
-        encoded = tokenizer(text, return_tensors="tf", truncation=True, padding="max_length", max_length=max_seq_length)
-        input_ids.append(encoded["input_ids"][0])
-    return np.array(input_ids)
 
-def prediction(model, max_seq_length, tokenizerf, *args) :
+    encoded = tokenizer(texts,max_length=max_seq_length, padding='max_length', truncation=False, return_tensors='tf',add_special_tokens=True)
+    input_ids.append([encoded["input_ids"],encoded["attention_mask"]])
+    return input_ids
+
+def prediction(model, max_seq_length, tokenizer, *args) :
     texts = list(*args)
-    to_test = encode_texts(texts=texts, tokenizer=tokenizerf, max_seq_length=max_seq_length)
-    proba = model.predict(to_test)
+    to_test = encode_texts(texts=texts, tokenizer=tokenizer, max_seq_length=max_seq_length)
+    proba = model.predict(*to_test)
     indexes = np.argmax(proba, axis=1)
     le = label_encoder()
     return le.inverse_transform(indexes)
 
-def predict_pipeline(to_predict:list, max_seq_length=32):
+def predict_pipeline(to_predict:list, max_seq_length=40):
     model, tokenizer = load()
     preds = prediction(model, max_seq_length, tokenizer, to_predict)
 

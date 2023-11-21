@@ -1,0 +1,602 @@
+surcharge convoyeur tx124
+casse entree etoile entrée 
+mauvais bouchonnage
+presence bavure sur un format
+mauvais bouchonnage
+pas d amener bouchon suite doublons
+pb tremie bouchon
+pb cellule flacon couche
+instabilité balance ipc gross
+mauvaise detection presence bouchon
+beaucoup de rejets hauteur bouchon
+perte com hmi
+fibre bol bouchon hs
+réglage table demi-lune
+defaut temps trop long communication ipc
+pas de detection manque bouchon dans ach
+de synchro vis sans fin
+pas de remonter defaut accu mini
+hmi bloqué
+controle glissement vis sans fin
+mauvais bouchonnage pendant passage des
+hmi ipc bloquer
+de synchro vis sans fin
+defaut communications climet 3
+vis ss fin bosch casseé
+defaut moteur table tournante
+defaut pesage et surcharge pompe pendant
+pb cellule d entree
+problème hmi ipc
+pb surcharge roue d entree
+temps exesive calcul
+pb poids lignes vertes
+réglage cellule accu  mini 
+pb accu mini conv bouchon
+defaut servo commande 10
+defaut table tournante
+pas de demarrage des climets via pems
+pb sacades
+defaut rejets flacon mauvais
+plus d'application active
+défaut accu mini
+défaut surveillance post rejets 
+pb com hmi
+erreur variateur trémie et bol vibrant 
+mauvaise position des aiguilles
+aiguilles de gabarit tordus
+casse ipc gross
+mauvais bouchonnage au passage des 4900
+controle capteur accu mini table
+perte de com
+ipc non centré par rapport au convoyeur
+inversion alim barre ionnisante liq1 et
+pb scada bloque
+pas de detection flacons a l'envers
+chute flacons ipc tare
+défaut flacons perdus ipc tare
+test arret d'urgence   en test format  
+légere de synchro vis sans fin
+axe du conv d entré hs
+synchro vis sans fin nok
+défaut hmi
+défaut servo commande hmi
+défaut alimentation bouchons
+vibration dans le convoyeur
+plus de tactile sur ecran des ipc
+manque  flacons dans ipc gross
+defaut tiroir rotatif
+probleme vis sans fin sortie
+plus de tactile sur le scada
+plus de tactil sur scada des ipc
+perte de com entre plc  et hmi
+jog ne fonctionne pas correctement
+defaut amorçage pompe peristatique
+perte de com hmi
+bruit vis sans fin
+hmi bloque
+desynchro vis sans fin
+problème bouchonnage 
+hmi bloquer
+reglage goulotte bouchon
+hmi de bloquer
+defaut de comm hmi ipc
+pas de vibration trémie
+passage de flacons non bouchonnés à la c
+hmi bloqué 
+bruit de frottement table tournante 
+remis valeur recette mecanique
+pb de com hmi
+remplacement bande convoyeur d'entrée
+probleme aspiration roue 3
+défaut surcharge roue d'entrée
+perte de com hmi 
+defaut surcharge tx124
+mauvais rempissage des flacons
+perte de flacon ipc tare et gross
+hmi ecran bleu
+casse entre roue 2 et 3
+bloquage convoyeur transport
+problème ouverture porte carter
+marche montante table accu
+défaut accu mini
+défaut de com hmi
+défaut de com hmi 
+défaut an005 servo commande 0
+hmi ipc bloqué
+soufflet pompe 6 couper
+jog ne fonctionne pas
+piece de format abime
+défaut rotation table
+plus de rotation table pendant le cycle
+mauvais relacher flacons dans convoyeur
+perte de flacons sur ipc gross
+pertes flacons ipc tare 
+ecran bleu hmi
+dur cardan inf pompe 5
+claquement dans mouvement des aiguilles
+defaut carte 332a01 et 332a02
+defaut barriere imaterielle porte 10
+pas d'arret de la table en accu max
+perte de com hmi 
+flacons perdu ipc gross
+probleme chute de flacons ipc tare
+chute flacon ipc lors du 4900
+écran bleu hmi
+perte de flacons sur ipc gross
+chute flacons ipc gross
+perte de flacons sur ipc
+perte de com hmi
+saccade vis sans fin pendant 4900
+perte de flacons sur ipc tare
+perte de com hmi 
+pb arret regulier de la remplisseuse pou
+reglage capteur accu mini
+probleme de pesée ipc tare
+défaut hmi flc
+fermeture doigt entree intempestif
+defaut tx 124
+defaut variateur tremie longitudinal
+convoyeur de bloquer
+problème détection flacons couchés
+défaut de com hmi
+defaut controle objet rejetet
+perte flacon ipc tare pendant les 4900
+perte de com
+erreur cumul bouchon
+probleme bras de surcharge table tournan
+defaut zero vis sans fin
+trop de doublon bol bouchon
+défaut de com hmi
+perte flacon ipc gross
+mauvaise vibration bol bouchon
+défaut de com hmi
+saccade convoyage flacons 
+defaut servo 0 vis sans fin
+pb de poid rouge
+ecran bleu sur hmi
+defaut servocommande zero vis sans fin
+défaut de com hmi ipc 
+perte de flacons ipc gross
+plus de fonctionnement de l'écran hmi
+perte de communications
+marche montante sur demi lune
+perte flacon ipc gross
+remplacement d'une carte d'axe 
+hmi bloque
+vibrations flacons dans le convoyeur 
+taquet blanc abimé
+marche montante sur demi lune
+fibre flacons à l'envers abîmée
+défaut flacons à l'envers 
+pas de bouchon dans trémie
+remplacement support manifold 
+application arreter
+perte flacon ipc tare
+glissement convoyeur taquet
+mauvaise aiguillage pendant les 4900
+perte de flacons ipc gross
+manchette bol bouchon detendue
+perte flacons entre roue 2 et roue 3
+problème vibration du bol 
+controle du bouchonnage
+pas de bouchonnage pendant les 4900
+ecran hmi bloqué
+de synchro vis ss fin
+controle synchro vis sans fin porte ouve
+hmi bloquet
+ecran hmi ipc figé 
+chute flacon ipc tare
+pertes flacons sur ipc
+perte flacon ipc
+hmi ipc bloque
+defaut de communication
+flacons touche doigt ipc gross
+controle doigt de pesé ipc gross
+pb bande convoyeur entree
+hmi flc bloqué
+pas de relacher flacon sur ipc tare sur
+hmi bloqué
+plus de tactile sur ecran ipc
+pb de bouchonnage
+bruit sur convoyeur d entré
+vis sans fin coté caps cassé
+pb defaut couse de pompe
+gk715 flc calcul de la pompe éronné 
+défaut bouchonnage
+défaut vibration courroie
+défaut ligne verte
+controle bouchonnage lors des 4900 flaco
+defaut prsence bouchon
+pb bouchonnage
+probleme de bouchonnage
+mauvaise aspiration sur roue 2 de sortie
+application arreter
+perte de com hmi ipc 
+defaut temps de communication trop long
+de synchro roue n°3 et vis sans fin
+pièce de format cassée sur magasin ipc
+casse sortie vis sans fin
+défaut com arrêt du demi cycle
+taquet transport hs
+defaut pompe 1 3 et 6
+défaut servoccommande 0
+pb bouchonnage
+defaut calcul course pompe gk715
+remplacement fibre trémie
+beaucoup de rejets flacons bouchonnés 
+pas de bouchonnage au 4900
+défaut de com hmi 
+défaut de com hmi ipc 
+problème vibration bol bouchon
+controle format et test ipc
+contrôle format et vérif ipc
+hmi figé
+problème lignes vertes 
+piece de format entre les roues ipc cass
+defaut moteur tapis entree
+défaut bouchonnage
+défaut pesée ligne verte
+chute flacons sur roue sortie n°3
+controle format   cellule   ipc
+plus de tactile sur scada des ipc
+perte de com entre plc et hmi
+fibre 312b03 couper
+présence particules sous le convoyeur d'
+hmi bloqué
+bruit sur vis sans fin
+erreur de com ipc
+goute sur ipc gross
+pas d'ouverture vanne cuve bouchon sur i
+defaut moteur pompes_aiguilles_tiroir ro
+casse flacons pendant la prod a controle
+perte premier flacon ipc tare
+table de la sedim 4 desseré
+réglage position ipc
+pas de chargement recette flc
+cellule flacons retournés hs
+défaut flacon retourné fantôme
+défaut de communication
+defaut sur tous les servocommande
+defaut surcharge tx 124 et 132
+defaut servo pompe 950  tirroir rotatif
+defaut servo pompe
+tactil du scada ne fonctionne plus
+soufflet pompe de remplissage percer
+vis carter bol bouchon disparue
+pb defaut de tous les moteurs sur hmi
+pas de prise ipc
+perte de com hmi ipc
+défauts pompes  aiguilles    
+défauts pompes  aiguilles …
+defaillance servocommande 0
+pb lancement recette sur hmi pour mft
+pb zero ipc tare
+prob defauts c 400
+contrôle cellule bouchon
+defaut servo commande de toute les pompe
+defaut servocommande pompe   tiroir  rot
+défaut c400 
+remplacement tapis d'entrée 
+défaut sur les pompes de remplissages
+laché de flacons ipc gross
+flacon perdu ipc gross
+défaut flacon couche
+pb c400
+pb c400
+défaut c400
+défaut c400
+pas de demarrage climet en defaut
+relance pc   hmi suite demande automatio
+défaut servocommande 0
+defaut servo commande 10 et defaut servo
+defaut c400
+defaut servocommande0
+défaut hmi bloquer sur ipc
+defaut servo pompe 3 et servocommande an
+pb aspiration ipc tare
+pas de detection présence bouchons
+pièce de format cassée 
+pas de prise flacons sur ipc gross
+pb de reject flacons
+pb demarrage machine defaut gl035 approv
+pb electrovanne roue de sortie
+probleme aspiration ipc
+mauvaise aspiration ipc gross 1 er vento
+hmi ipc figé
+flacon retourner pas détecter
+defaut tx124
+pas de sortie bras de transfert
+defaut controle objet rejetet
+perte de flacons entre roue 2 et 3
+problème registre à décalage
+vis carter bol bouchon manquante 
+defaut gn 220 tx 123
+defaut tx132
+pertes flacons entre roue 2 et 3 
+manque ventouses roue 2/3 ls2
+flacons se couche sortie roue de bouchon
+defaut flacons à l envers
+défaut cellule poste rejets
+casse flacons en entrée 
+pas d'aspiration sur ipc gross
+hmi ipc bloqué
+contrôle de la cellule flacon a l envers
+défaut surveillance capteur post rejet
+pas d'aspiration ipc gross
+trop de bouchon dans le bol et doublon
+défaut accu mini ou flacons renversés 
+bouchon bloqué ou chute de bouchon
+defaut prise ipc gross sur balance
+pas d'ouverture cuve bouchon 
+mauvaise prise flacons sur 2 derniere ve
+perte de flacons entre roue2 et3
+bouchonnage de bloquer
+saccade flacons roue de sortie
+controle bouchonnage
+perte de com hmi
+controle bouchonnage au 4900
+defaut aspiration ipc gross
+perte de com hmi ipc 
+pas de prise de flacons sur ipc tare
+soufflet pompe 6 hs 
+pb prise flacon ipc gross
+mauvais relacher flacons sur ipc gross
+pb hmi
+casse roue de sortie
+probleme prise flacon ipc
+perte bouchon
+perte de com
+support manifol defectueux
+soufflet pompe n°6 hs
+saccade entrée remplisseuse
+defaut flacon a l'envers
+hmi bloqué
+défaut de com hmi 
+pas de detection niveau haut tremie
+deblocage convoyeur principal
+probleme de prise flacons ipc gross pend
+pas de prise flacon ipc gross
+accu min ou flacons couchés 
+controle table tournante
+front descendant trop important
+piece de format sur demie lune abimée
+mauvaise prise ipc tare et gross
+chute flacons au niveau demie lune
+chute flacons au niveau demie lune
+fibre presence bouchon bol hs
+pas de prise ipc
+défaut barrière imma porte 12
+defaut prise et relaché flacons sur ipc
+ajustement vitesse bol
+pb prise flacons sur ipc
+changement manchette silicone bouchon fl
+particules aux niveau roue bouchon et pb
+perte de bouchon au niveau roue bouchon
+hmi ipc bloqué
+pas de prise flacons sur ipc gross
+defaut table tournante
+gant coincer dans le convoyeur
+mise en place support table tournante
+perte de bouchons au niveau roue bouchon
+fibre flacons a l'envers coupée
+mauvaise prise et relache flacons ipc ta
+charniére male carter bol cassée
+defaut flacons a l envers
+defaut relachement flacon ipc tare
+defaut flacons retourné
+jog ne fonctionne pas correctement
+gh200 flacon retourné
+ecran ipc figé
+jog defectueux
+fuite raccord vérin doigt bouchonnage
+perte de com plc hmi
+controle format   controle cellules et c
+defaut moteur table tournante
+détection faux flacons en entrée machine
+hmi ipc bloqué
+mauvais comptage flacons pendant la purg
+controle format et cellules
+remplacement carter bol bouchon lyo1
+pb log ipc
+defaut barriere porte 10
+plus de tactile sur ecran
+defaut flacons conchés
+defaut capteur rejets flacons
+flacons non prit sur ipc grosse
+remplacement fibre optique  flacons à l'
+pb prise ipc tare
+défaut flacon renversé ou accu mini
+mauvais bouchonnage  flacon sans bouchon
+pb casse flacon sortie rru entrée hql
+pb bouchonnage
+mauvais bouchonnage
+contrôle delta bouchonnage
+defaut pompe 8
+soufflet craqué sur la pompe n°3
+guide avant roue de bouchonnage hs
+probleme recette ipc
+remplacement carter bol bouchon
+courroie convoyeur d entree fisuré
+pb de chargement de recette ipc
+chute de flacons au niveau roue d entrée
+convoyeur trop loin par rapport àla seme
+flacon rejetés
+controle bouchonnage
+presence de particule convoyeur d entré
+support piéce de format au niveau de la
+défaut flacon à l'envers
+défaut de comptage
+pb convoyeur entrée
+soufflet pompe n°2 hs
+toutes les fonction sur hmi grisées
+pb bouchonnage
+démontage roue bouchonnage prod lyo1
+taquet bloqué/cassé  convoyeur en surcha
+ak345 perte de com servo-hmi
+casse roue d'entrée
+goutte au niveau de la vis sans fin
+dur mecanique lors de la montée aiguille
+carter bol bouchon cassé
+défaut  gk423 erreur cycle ipc 
+défaut servo vis sans fin 119
+preparation du carter bol bouchon 
+pb ipc tare
+saccades lors de la descente du mouvemen
+flacons tombe relaché ipc tare
+perte flacon entre roues 2 et 3
+defaut servo convoyeur tx 132
+relaché flacon sur les 2 ipc
+defaut servocommande o et defaillance de
+perte de bouchons aprés roue de bouchonn
+problème de bouchonnage lyo1
+defaut de communiation plc/hmi
+beug pc hmi
+casse flacon sortie flc
+mise en place carter n°2 bol
+controle format   controle cellule
+defaut communication sur hmi ipc
+defaut de communication entre hmi et c40
+pas de tactile sur ecran hmi ipc
+ipc tare: mauvais relachement des flacon
+pb flacons couchés sur table d alimentat
+défaut hauteur bouchon avant de lancer l
+pas de com ecran hmi automate
+dépassement temps de pesé ipc tare
+pb de relachement de l'ipc tare
+mauvais relachement des flacons ipc tare
+pb bouchon trop enfoncé
+pas d'acces à la fonction valeurs recett
+perte bouchon sortie roue de  bouchonnag
+investigation mauvais bouchonnage
+remplt secteurs d'aspiration et tuyaux
+perte de com ple/hmi
+pb dépose bouchons
+particules sur contre format roue boucho
+pb bouchonnage
+ecran ipc figé
+perte de communication
+controle montage roue inox
+defaut convoyeur principal tx124
+remplacement fibres  lors de la mp
+mise en place roue inox bouchonnage
+controle formats et cellules
+pas de vibration de la trémie d'alimenta
+hmi ipc bloqué
+perte de com sur hmi
+fibre cellule rejet abimée
+ak345 perte de com servo-hmi
+pb position aiguilles
+defaut surcharge sur ipc gross
+saccade au niveau de la sortie
+joint torique roue de sortie 2 hs
+bande convoyeur entrée hs
+hmi  bloqué 
+présence de particules sur tapis d'entré
+bruit anormal vis sans fin
+présence de gouttes en sortie de la remp
+verre dans ventouse ipc tare
+carter blo bouchon hs
+pb climet poste aiguille slfpc-03-fil2-a
+pb defaillance climet a3 flux
+vitesse bol bouchon trop lente  pas de b
+mauvais bouchonnage: les bouchons ne son
+mauvais bouchonnage
+déverrouillage vis sans fin pendant prod
+defaut balance ipc gross
+controle format  controle cellules
+desynchro roue d'entrée
+ctrl synchro roue d'entrée
+defaut ok 502 communication balance h2o2
+analyse defaut ipc tare
+pb ipc
+pb ipc tare
+démontage balance ipc tare
+ecran skada figé
+defaut gn261 ipc gross
+defaut com c400
+faut defaut accu mini
+la trémie vibre en permanence surplus de
+defaut cellule tremie basse
+perte de communication sur la remplisseu
+impossible de déverruiller le bol boucho
+pb de bouchonnage
+surcharge roues de sortie
+controle format   controle cellule
+saccades du convoyeur à poches
+desynchro roue bouchon
+controle calibtation ecran ipc
+ctrl format croissant roue bouchonnage l
+carter bol bouchon cassé
+format magasin ipc cassé
+support manifold fissuré
+controle roue ipc gross
+pb détection cellule trémie haute
+pb bande entree et ipc gross
+remplacement ev sortie
+defaut communication hmi/plc interrompu
+désynchro machine répétitif
+surcharge pompe 8
+pb cellule accu mini et ofset ipc gross
+défaut ipc tare
+climet n°2 en alarme
+mauvaise détection flacon couche 312b01
+pb ipc defaut position
+pb ipc tare
+soufflet pompe 2 hs
+controle format  controle cellule
+controle ipc tare
+touche hmi grisées
+pb alimentation bouchon tremie
+pb bouchonnage lors du controle
+pas d'alimentation bouchon dans le bol
+perte de communication
+défaut cellule trémie haute
+piéce format sous magasin ipc cassée
+surcharge roue entrée
+saccade au niveau du convoyeur
+particule au niveau de la roue bouchonna
+barrière immatérielle 502b78 en défaut
+casse pièce guidage sortie vis sans fin
+pb prise flacons ipc
+pb de pesé ipc tare
+piece de format après ipc gross hs
+pb prise flacon ipc gross
+pb prise flacons ipc gross
+ctrl ipc nc passage 490 flacons
+support carter bol cassé
+vis cassée sur support magasin ipc
+barrière sick porte 3 en défaut
+remontage support magasin ipc
+le 1 ere flacons de l ipc brut  n est pa
+ajustemen ipc gross
+problème relaché de flacon ipc
+vérif formats   test ipc
+défaut absence de bouchon au le rail
+pas de detection magasin ipc
+pas de detection masin ipc
+défaut tx 132 convoyeur principal en pro
+defaut servo convoyeur tx124
+defaut accu mini bol bouchon
+déf détection flacons à l'envers
+controle format   controle ipc et cellul
+pb cellule identification flacons
+ak345 perte de com servo-hmi
+défaut  dépassement du temps prévu de la
+défaut an005 servo commande 10
+désynchronisation roues de sorties
+reglage de la cellule table d accu flc
+dérive balance ipc tare pesé hors tolére
+table d'entrée exentré
+defaut tiroir rotatif 132
+ecran ipc figé
+ecran ipc figé
+ecran ipc figé
+pc ipc bloqué
+pb poid durant 490
+machine en attente bouchons 
+défaut accu mini convoyeur bouchon
+shunt barres ions
+défaut vibration courroie
+pas d'ouverture cuve bouchon 
+casse entree etoile entrée 
+problème ouverture porte carter

@@ -244,3 +244,4 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,venv,python
+model/save_model/*.h5

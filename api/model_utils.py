@@ -30,7 +30,7 @@ def encode_texts(texts, tokenizer, max_seq_length):
 def prediction(model, max_seq_length, tokenizer, *args) :
     texts = list(*args)
     to_test = encode_texts(texts=texts, tokenizer=tokenizer, max_seq_length=max_seq_length)
-    proba = model.predict(*to_test)
+    proba = model.predict(to_test)
     indexes = np.argmax(proba, axis=1)
     max_proba = np.max(proba, axis=1)
     le = label_encoder()

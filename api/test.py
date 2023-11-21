@@ -1,4 +1,4 @@
-import model_utils
+import api.model_utils as model_utils
 
 # model, tokenizer = model_utils.load()
 # labels = model_utils.label_extractor(path="labels.csv")

@@ -1,3 +1,8 @@
-keras==2.14.0
-fastapi==0.104.1
+keras
+fastapi
 tensorflow==2.14.0
+transformers
+scikit-learn
+pandas
+sentencepiece
+uvicorn

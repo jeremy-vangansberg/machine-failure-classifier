@@ -8,11 +8,11 @@ import pandas as pd
 def load() :
 ## Loading model and tokenizer
     with custom_object_scope({'TFCamembertModel': TFCamembertModel}):
-        model = load_model('saved_model/test.h5')
-        tokenizer = CamembertTokenizer.from_pretrained("jplu/tf-camembert-base")
+        model = load_model('model/saved_model/test.h5')
+        tokenizer = CamembertTokenizer("model/saved_model/tokenizer_model.model")
     return model, tokenizer
 
-def label_extractor(path="labels.csv", col='labels'):
+def label_extractor(path="model/labels.csv", col='labels'):
     df = pd.read_csv(path)
     return df[col]
 
@@ -42,8 +42,6 @@ def prediction(model, max_seq_length, tokenizerf, *args) :
 
 def predict_pipeline(to_predict:list, max_seq_length=32):
     model, tokenizer = load()
-    labels = label_extractor(path="labels.csv")
-    le = label_encoder()
     preds = prediction(model, max_seq_length, tokenizer, to_predict)
 
     return preds

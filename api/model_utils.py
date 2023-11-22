@@ -36,7 +36,7 @@ def prediction(model, max_seq_length, tokenizer, *args) :
     le = label_encoder()
     return le.inverse_transform(indexes), max_proba
 
-def predict_pipeline(to_predict:list, max_seq_length=40):
-    model, tokenizer = load()
+def predict_pipeline(to_predict:list, model, tokenizer, max_seq_length=40):
+    
     preds, proba = prediction(model, max_seq_length, tokenizer, to_predict)
     return preds, proba

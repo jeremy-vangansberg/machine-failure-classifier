@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import pickle
 
-def load(model_path="model/saved_model/nlp_14_nb_class_2023-11-21 15_14_07.250352.h5") :
+def load(model_path="model/saved_model/nlp_nb_class_15_2023-11-23 12_22_45.662133.h5") :
 ## Loading model and tokenizer
     with custom_object_scope({'TFCamembertModel': TFCamembertModel}):
         model = load_model(model_path)
@@ -37,6 +37,5 @@ def prediction(model, max_seq_length, tokenizer, *args) :
     return le.inverse_transform(indexes), max_proba
 
 def predict_pipeline(to_predict:list, model, tokenizer, max_seq_length=40):
-    
     preds, proba = prediction(model, max_seq_length, tokenizer, to_predict)
     return preds, proba

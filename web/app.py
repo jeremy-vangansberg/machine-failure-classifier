@@ -1,15 +1,29 @@
 import streamlit as st
 import pandas as pd
 import datetime
-from myfunctions import get_prediction
 import time
+from myfunctions import get_prediction, to_excel
+from io import BytesIO
+import xlsxwriter
+
+
+st.set_page_config(
+    page_title="Outil de prédiction des catégories",
+    page_icon="🧊",
+    layout="wide"
+    )
+
+
+
 
 def main():
 
 
 
-    st.title("Outil de prédiction des catégories")
-    st.text("...................................")
+    #st.title("Outil de prédiction des catégories")
+    st.markdown("<h1 style='text-align: center'>Outil de prédiction des catégories</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center'>...................................</h1>", unsafe_allow_html=True)
+
 
     # Chargez le fichier Excel
     uploaded_file = st.file_uploader("Choisissez un fichier Excel", type=['xlsx'])
@@ -30,23 +44,58 @@ def main():
 
         text_list = df['Description'].values.tolist()
 
-        # Code de l'application Streamlit
-        st.title("API Prediction App")
+        columns = st.columns((2, 1, 2))
+        button = columns[1].button('Effectuer une prédiction')
 
-        with st.spinner("Appel API ..."):
-            # Enregistrez le temps de début
-            start_time = time.time()
-            result = get_prediction(text_list)
-            df = pd.concat([df, result], axis=1)
 
-            # Remplacez les valeurs de 'category' par 'à catégoriser par un humain' lorsque la 'probability' est inférieure à 0.6
-            df.loc[df['probability'] < 0.6, 'category'] = 'à catégoriser par un humain'
-            df = df.rename(columns={'category': 'sous ensemble estimé'})
-            st.dataframe(df)
+        col1, col2 = st.columns(2)
+        
 
-            # Enregistrez le temps de fin
-            end_time = time.time()
-            st.write(f"Temps de calcul : {end_time - start_time} secondes")
+        
+        with col1:
+
+                if button :
+
+                    # Code de l'application Streamlit
+                    st.markdown(""" #### API Prediction App""")
+
+                    with st.spinner("Appel API ..."):
+                        # Enregistrez le temps de début
+                        start_time = time.time()
+                        result = get_prediction(text_list)
+                        df = pd.concat([df, result], axis=1)
+
+                        # Remplacez les valeurs de 'category' par 'à catégoriser par un humain' lorsque la 'probability' est inférieure à 0.6
+                        df.loc[df['probability'] < 0.6, 'category'] = 'à catégoriser par un humain'
+                        df_pred = df.rename(columns={'category': 'sous ensemble estimé'})
+
+                        # Enregistrez le temps de fin
+                        end_time = time.time()
+                
+                
+            
+                        st.write(f"Temps de calcul : {round(end_time - start_time, 2)} secondes")
+                        
+
+
+
+                        if df_pred  is not None:
+                            st.dataframe(df_pred)
+                            with col2:          
+                                    st.write("")
+                                    st.write("")
+                                    st.write("")
+                                    st.write("")
+                                    st.write("")
+                                    st.write("")
+
+                                    df_xlsx = to_excel(df_pred)   
+                                    st.download_button(label='📥 Download Current Result',
+                                                                    data=df_xlsx ,
+                                                                    file_name= 'df_test.xlsx')
+                        
+
+                
 
 if __name__ == "__main__":
     main()

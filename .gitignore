@@ -6,6 +6,7 @@
 # weights and saved model (ignoring large volumes files during the experiment)
 # 
 model/saved_model/*
+api/model/saved_model/*.h5
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,venv,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,venv,python

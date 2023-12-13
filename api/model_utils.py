@@ -13,7 +13,7 @@ def load(model_path="model/saved_model/nlp_nb_class_15_2023-11-23 12_22_45.66213
         tokenizer = CamembertTokenizer("model/saved_model/tokenizer_model.model")
     return model, tokenizer
 
-def label_encoder(path="model/saved_model/labelencoder.pkl"):
+def label_encoder_custom(path="model/saved_model/labelencoder.pkl"):
     # Création de l'encodeur
     with open(path, 'rb') as file:
     # Load the LabelEncoder object from the file
@@ -33,7 +33,7 @@ def prediction(model, max_seq_length, tokenizer, *args) :
     proba = model.predict(to_test)
     indexes = np.argmax(proba, axis=1)
     max_proba = np.max(proba, axis=1)
-    le = label_encoder()
+    le = label_encoder_custom()
     return le.inverse_transform(indexes), max_proba
 
 def predict_pipeline(to_predict:list, model, tokenizer, max_seq_length=40):

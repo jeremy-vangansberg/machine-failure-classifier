@@ -17,7 +17,7 @@ def get_prediction(user_input):
     """
 
     # Définissez l'URL de l'API
-    api_endpoint = "http://20.19.15.197/predict"
+    api_endpoint = "http://20.19.62.161/predict"
 
     # Préparez les données dans le format requis
     payload = {
